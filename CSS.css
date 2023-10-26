@@ -1,0 +1,234 @@
+@keyframes div1 {
+    0% { background-color: tan;border-radius: 0% 15%;}
+    50% { border-radius: 15% 0%;}
+    100% { background-color: aqua;border-radius: 0% 15%;}
+}
+
+@keyframes Heading_opacity_animation { 
+  0% {opacity: 0%;color:black;}
+  50% {opacity: 50%;}
+  100% {opacity: 100%;color:red;}
+
+}
+
+
+.Heading_opacity {
+  animation: Heading_opacity_animation 2.5s ease-in-out;
+}
+
+body {
+    background-image: url('bg-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.input[type=text] {
+  width: 300px;
+  float:right;
+  margin-right: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('Search.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  background-size: 6%;
+  padding: 10px 20px 12px 40px;
+  color: aqua;
+}
+
+/* Div tag */
+
+div {
+  margin-left: 26%;
+  position: relative;
+  text-align: center;
+  background-color:azure;
+
+}
+
+
+/* Paragraph tag */
+
+p { font-size: 24px;
+  font-family: serif;
+  color: green;
+  padding: 1%;
+}
+
+/* Fixed Menu Bar Using List */
+
+ul { cursor:url;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: orange;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+
+
+.div1 {  height: 500px;
+  padding-top: 90px;  
+  background-color: aqua; 
+  animation: div1  5.0s infinite;
+
+}
+
+
+.story {
+    height: 800px;
+    width: 80%px; 
+    border:2px solid chartreuse;
+    margin-top: 4%;
+}
+
+
+div a1 {
+    background-color:blue ; 
+    width:1000px;
+    position: fixed;
+    opacity: 100%;
+    margin-top: 5px;
+}
+
+select {
+  cursor:url;
+}
+
+
+
+textarea { position: relative;
+    width: 500px;
+    height: 50px;
+    float:right;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+
+
+.grid { 
+   display: grid;
+   grid-template-columns: auto auto;
+   gap: 5%;
+   padding:4% 4% ;
+   border-radius: 0;
+   height: 800px;
+  }
+
+.grid > div {
+  color: pink;
+  background-color: red;
+  border-radius: 0;
+  margin-left: 0;
+}
+
+.grid2, .grid3 {
+  padding-left: 2%;
+  margin-left: 0%;
+  padding-bottom: 0;
+}
+
+.grid1 { padding-top: 35%;
+    padding-bottom: 2%;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    text-align: center;
+  }
+
+.grid4 {
+  padding-top: 3%;
+   grid-column-start: 1;
+   grid-column-end: 3;
+}
+
+h2 {
+  color: orange;
+}
+
+.last {
+  border-radius: 0% 0%;
+
+}
+
+
+/* Login_DIV */
+
+.Login_div {
+  background-color: red;
+  width: 68%;
+  display: flex;
+  padding: 2% 3%;
+  background-image: url("3-Login-Page-Screen.jpg");
+  background-repeat: no-repeat;
+  background-position: 435px 26px;
+  background-size: 495px 418px;
+}
+
+.Login_form_div {
+  margin-left: 1%;
+  background-color:bisque;
+  padding-right: 10%;
+  padding-left: 4%;
+  text-align: left;
+  position: relative;
+
+}
+
+.login_submit {
+  padding: 10px 20px;
+  color: wheat;
+  font-family: sans-serif;
+  border: 1px solid burlywood;
+  border-radius: 5px 5px;
+  background-color: blueviolet;
+  width: 260px;
+}
+.Password, .Email_ID  {
+  padding: 8px 20px;
+  color: wheat;
+  font-family: sans-serif;
+  border: 1px solid burlywood;
+  border-radius: 5px 5px;
+  width: 220px;
+  color:brown;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.login_submit:hover{
+  background-color: blue;
+}
+
+
+
+
+
+     
